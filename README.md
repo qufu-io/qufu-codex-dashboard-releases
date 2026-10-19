@@ -2,75 +2,76 @@
 
 A compact desktop companion for tracking Codex sessions, token usage and account limits.
 
-**Version 1.0 Â· Windows & Linux Â· Author: [alper@qufu.io](mailto:alper@qufu.io)**
+**Version 1.0 · Windows & Linux · Author: [alper@qufu.io](mailto:alper@qufu.io)**
 
-[Downloads / Ä°ndir](https://github.com/qufu-io/qufu-codex-dashboard-releases/releases) Â· [TÃ¼rkÃ§e](#tÃ¼rkÃ§e) Â· [English](#english) Â· [qufu.io](https://qufu.io)
+[Downloads / İndir](https://github.com/qufu-io/qufu-codex-dashboard-releases/releases) · [Türkçe](#türkçe) · [English](#english) · [qufu.io](https://qufu.io)
 
 <p align="center">
   <img src="docs/images/dashboard-1.0.png" width="300" alt="Qufu Codex Dashboard 1.0 showing session tokens, last request cost, context usage and account limits">
 </p>
 
-> **1.0 gÃ¼ncelleme sÃ¼rÃ¼mÃ¼ son test aÅŸamasÄ±nda. Kurulum paketleri test onayÄ±ndan sonra Releases bÃ¶lÃ¼mÃ¼ne eklenecek.**
+> **1.0 güncelleme sürümü son test aşamasında. Kurulum paketleri test onayından sonra Releases bölümüne eklenecek.**
 > **The updated 1.0 build is undergoing final testing. Installers will appear in Releases after acceptance.**
 
-## TÃ¼rkÃ§e
+## Türkçe
 
-Qufu Codex Dashboard, Codex kullanÄ±mÄ±nÄ± kÃ¼Ã§Ã¼k bir masaÃ¼stÃ¼ penceresinden takip etmeni saÄŸlar. Tauri 2 ile geliÅŸtirilmiÅŸtir; Windows ve Linux Ã¼zerinde Ã§alÄ±ÅŸÄ±r.
+Qufu Codex Dashboard, Codex kullanımını küçük bir masaüstü penceresinden takip etmeni sağlar. Tauri 2 ile geliştirilmiştir; Windows ve Linux üzerinde çalışır.
 
-### Ã–zellikler
+### Özellikler
 
-- Workspace ve session seÃ§imi; arÅŸivlenmiÅŸ, internal ve subagent kayÄ±tlarÄ±nÄ± ana listeden ayÄ±ran otomatik filtreleme.
-- Toplam ve son tamamlanan model yanÄ±tÄ± iÃ§in Input, Output, Cache tokenlarÄ± ve tahmini USD maliyeti.
-- Son 60 saniyeden hesaplanan canlÄ± token/saniye deÄŸeri.
-- Ã–lÃ§Ã¼lmÃ¼ÅŸ context kullanÄ±mÄ± ve session tarafÄ±ndan bildirilen context kapasitesi.
-- 5 saatlik ve haftalÄ±k hesap limitleri, reset sayaÃ§larÄ± ve veri yeterliyse aÃ§Ä±kÃ§a iÅŸaretlenmiÅŸ tahmini token eÅŸdeÄŸerleri.
-- Detaylar panelinde subagent tÃ¼ketimi, model dÃ¶kÃ¼mÃ¼ ve hesap abonelik tÃ¼rÃ¼.
-- Her zaman Ã¼stte, sistem tepsisi, hatÄ±rlanan pencere ayarlarÄ±, ÅŸeffaflÄ±k, koyu/aÃ§Ä±k tema ve TÃ¼rkÃ§e/Ä°ngilizce dil seÃ§imi.
-- VarsayÄ±lan kapalÄ± Auto Follow Beta; seÃ§ili Desktop session doÄŸrulanamÄ±yorsa manuel seÃ§imi korur.
+- Workspace ve session seçimi; arşivlenmiş, internal ve subagent kayıtlarını ana listeden ayıran otomatik filtreleme.
+- Toplam ve son tamamlanan model yanıtı için Input, Output, Cache tokenları ve tahmini USD maliyeti.
+- Son 60 saniyeden hesaplanan canlı token/saniye değeri.
+- Ölçülmüş context kullanımı ve session tarafından bildirilen context kapasitesi.
+- 5 saatlik ve haftalık hesap limitleri, reset sayaçları ve veri yeterliyse açıkça işaretlenmiş tahmini token eşdeğerleri.
+- Detaylar panelinde subagent tüketimi, model dökümü ve hesap abonelik türü.
+- Her zaman üstte, sistem tepsisi, hatırlanan pencere ayarları, şeffaflık, koyu/açık tema ve Türkçe/İngilizce dil seçimi.
+- Varsayılan kapalı Auto Follow Beta; seçili Desktop session doğrulanamıyorsa manuel seçimi korur.
 
-### Ä°ndirme ve kurulum
+### İndirme ve kurulum
 
-Uygulama **Ã¼cretsizdir ve kapalÄ± kaynaklÄ±dÄ±r**. Public daÄŸÄ±tÄ±m deposundan GitHub hesabÄ± veya davet gerektirmeden indirebilirsin. Kaynak kodu bu depoda paylaÅŸÄ±lmaz.
+Uygulama **ücretsizdir ve kapalı kaynaklıdır**. Public dağıtım deposundan GitHub hesabı veya davet gerektirmeden indirebilirsin. Kaynak kodu bu depoda paylaşılmaz.
 
-1. [1.0 sÃ¼rÃ¼mÃ¼nÃ¼ aÃ§](https://github.com/qufu-io/qufu-codex-dashboard-releases/releases).
-2. **Assets** bÃ¶lÃ¼mÃ¼nÃ¼ geniÅŸlet.
-3. Ä°ÅŸletim sistemine uygun paketi indir:
+1. [1.0 sürümünü aç](https://github.com/qufu-io/qufu-codex-dashboard-releases/releases).
+2. **Assets** bölümünü genişlet.
+3. İşletim sistemine uygun paketi indir:
 
 | Platform | Paket | Kurulum |
 | --- | --- | --- |
-| Windows x64 | `*_x64-setup.exe` | DosyayÄ± Ã§alÄ±ÅŸtÄ±r; kurulumdan sonra BaÅŸlat menÃ¼sÃ¼nden aÃ§. |
+| Windows x64 | `*_x64-setup.exe` | Dosyayı çalıştır; kurulumdan sonra Başlat menüsünden aç. |
+| Windows x64, taşınabilir | `QufuCodexDashboard-1.0.exe` | Dosyayı çalıştır. WebView2 kurulu olmalı. |
 | Ubuntu / Debian amd64 | `*_amd64.deb` | `sudo apt install ./indirilen-dosya.deb` |
-| Linux x64 | `*_amd64.AppImage` | `chmod +x indirilen-dosya.AppImage` ardÄ±ndan dosyayÄ± Ã§alÄ±ÅŸtÄ±r. |
+| Linux x64 | `*_amd64.AppImage` | `chmod +x indirilen-dosya.AppImage` ardından dosyayı çalıştır. |
 
-**Gereksinimler:** Yerel session verisi oluÅŸturan Codex kurulumu. CanlÄ± hesap limitleri iÃ§in oturum aÃ§Ä±lmÄ±ÅŸ Codex CLI (`codex` komutu PATH Ã¼zerinde) gerekir. Windows kurucusu WebView2'yi kontrol eder; eksikse internetten indirip otomatik kurar. WebView2 kurulumu baÅŸarÄ±sÄ±z olursa uygulama kurulumu durur. Linux'ta WebKitGTK 4.1 ve Ã§alÄ±ÅŸan bir masaÃ¼stÃ¼ oturumu gerekir; GNOME'da tray iÃ§in AppIndicator eklentisi gerekebilir. Wayland, pencere konumunu ve her zaman Ã¼stte davranÄ±ÅŸÄ±nÄ± sÄ±nÄ±rlandÄ±rabilir.
+**Gereksinimler:** Yerel session verisi oluşturan Codex kurulumu. Canlı hesap limitleri için oturum açılmış Codex CLI (`codex` komutu PATH üzerinde) gerekir. Windows kurucusu WebView2'yi kontrol eder; eksikse internetten indirip otomatik kurar. WebView2 kurulumu başarısız olursa uygulama kurulumu durur. Linux'ta WebKitGTK 4.1 ve çalışan bir masaüstü oturumu gerekir; GNOME'da tray için AppIndicator eklentisi gerekebilir. Wayland, pencere konumunu ve her zaman üstte davranışını sınırlandırabilir.
 
-**GÃ¼ncelleme:** Eski uygulamayÄ± tray menÃ¼sÃ¼ndeki **Quit / Ã‡Ä±kÄ±ÅŸ** ile kapat, ardÄ±ndan yeni kurulumu Ã§alÄ±ÅŸtÄ±r. Pencerenin X dÃ¼ÄŸmesi uygulamayÄ± tray'e gizler.
+**Güncelleme:** Eski uygulamayı tray menüsündeki **Quit / Çıkış** ile kapat, ardından yeni kurulumu çalıştır. Pencerenin X düğmesi uygulamayı tray'e gizler.
 
-### KullanÄ±m
+### Kullanım
 
-Ãœstteki workspace/session adÄ±na tÄ±klayÄ±p takip edeceÄŸin session'Ä± seÃ§. Detaylar paneli model ve subagent dÃ¶kÃ¼mÃ¼nÃ¼ gÃ¶sterir. Ayarlardan dil, tema, ÅŸeffaflÄ±k ve her zaman Ã¼stte seÃ§eneklerini deÄŸiÅŸtirebilirsin.
+Üstteki workspace/session adına tıklayıp takip edeceğin session'ı seç. Detaylar paneli model ve subagent dökümünü gösterir. Ayarlardan dil, tema, şeffaflık ve her zaman üstte seçeneklerini değiştirebilirsin.
 
-Alt satÄ±r son limit gÃ¼ncelleme saatini gÃ¶sterir; eski veride ne kadar sÃ¼re geÃ§tiÄŸi belirtilir.
+Alt satır son limit güncelleme saatini gösterir; eski veride ne kadar süre geçtiği belirtilir.
 
-VarsayÄ±lanlar: Ä°ngilizce, %33 ÅŸeffaflÄ±k, 300 piksel geniÅŸliÄŸinde kompakt gÃ¶rÃ¼nÃ¼m. YÃ¼kseklik iÃ§eriÄŸe uyar; pencere ve sonraki tercihler hatÄ±rlanÄ±r. Context %80'i, hesap limitleri %90'Ä± aÅŸÄ±nca ilgili bar ve yÃ¼zde uyarÄ± rengine dÃ¶ner.
+Varsayılanlar: İngilizce, %33 şeffaflık, 300 piksel genişliğinde kompakt görünüm. Yükseklik içeriğe uyar; pencere ve sonraki tercihler hatırlanır. Context %80'i, hesap limitleri %90'ı aşınca ilgili bar ve yüzde uyarı rengine döner.
 
 ### Veriler ve hesaplama
 
-- Yerel Codex metadata ve session kayÄ±tlarÄ± salt okunur kullanÄ±lÄ±r. `CODEX_HOME` ayarlÄ±ysa bu klasÃ¶r, yoksa `~/.codex` okunur. Liste keÅŸfinde tarih sÄ±nÄ±rÄ± veya elle yazÄ±lmÄ±ÅŸ session adlarÄ± yoktur.
-- Cache, Input'un; reasoning, Output'un alt kÃ¼mesidir. Toplamda tekrar eklenmez. Ana session ve subagent tÃ¼ketimleri ayrÄ± sunulur.
-- Bilinmeyen kullanÄ±m veya fiyat sÄ±fÄ±r gÃ¶sterilmez. Son istek, son tamamlanan **model yanÄ±tÄ±dÄ±r**; bir kullanÄ±cÄ± mesajÄ± birden fazla model yanÄ±tÄ± iÃ§erebilir.
-- USD tutarlarÄ± API eÅŸdeÄŸeri tahmindir; abonelik faturasÄ± deÄŸildir. Resmi [OpenAI fiyatlarÄ±](https://developers.openai.com/api/docs/pricing) her aÃ§Ä±lÄ±ÅŸta kontrol edilir; eriÅŸilemezse son geÃ§erli fiyat, ilk aÃ§Ä±lÄ±ÅŸta ise dahil edilen fiyat tablosu kullanÄ±lÄ±r.
-- Context miktarÄ± Ã¶lÃ§Ã¼lmÃ¼ÅŸ deÄŸerdir. Kapasite abonelikten tahmin edilmez.
-- Hesap limitleri `account/rateLimits/read` Ã¼zerinden alÄ±nÄ±r. OpenAI sabit token kotasÄ± bildirmez. `â‰ˆ` iÅŸaretli miktarlar, yerel fiyat aÄŸÄ±rlÄ±klÄ± kalibrasyondan tahmini token eÅŸdeÄŸeridir; resmi kota veya hesap genelinde Ã¶lÃ§Ã¼lmÃ¼ÅŸ harcama deÄŸildir. Yeterli/gÃ¼venilir veri yoksa miktarlar bilinmiyor gÃ¶sterilir. BaÅŸka cihaz ve bulut kullanÄ±mÄ± tahminlerin doÄŸruluÄŸunu etkileyebilir.
-- Yerel kullanÄ±m kaydÄ± bulunmayan bulut/ChatGPT sohbetleri listelenmez. Auto Follow doÄŸrulanmÄ±ÅŸ Desktop seÃ§imi bulunamazsa manuel kalÄ±r.
+- Yerel Codex metadata ve session kayıtları salt okunur kullanılır. `CODEX_HOME` ayarlıysa bu klasör, yoksa `~/.codex` okunur. Liste keşfinde tarih sınırı veya elle yazılmış session adları yoktur.
+- Cache, Input'un; reasoning, Output'un alt kümesidir. Toplamda tekrar eklenmez. Ana session ve subagent tüketimleri ayrı sunulur.
+- Bilinmeyen kullanım veya fiyat sıfır gösterilmez. Son istek, son tamamlanan **model yanıtıdır**; bir kullanıcı mesajı birden fazla model yanıtı içerebilir.
+- USD tutarları API eşdeğeri tahmindir; abonelik faturası değildir. Resmi [OpenAI fiyatları](https://developers.openai.com/api/docs/pricing) her açılışta kontrol edilir; erişilemezse son geçerli fiyat, ilk açılışta ise dahil edilen fiyat tablosu kullanılır.
+- Context miktarı ölçülmüş değerdir. Kapasite abonelikten tahmin edilmez.
+- Hesap limitleri `account/rateLimits/read` üzerinden alınır. OpenAI sabit token kotası bildirmez. `≈` işaretli miktarlar, yerel fiyat ağırlıklı kalibrasyondan tahmini token eşdeğeridir; resmi kota veya hesap genelinde ölçülmüş harcama değildir. Yeterli/güvenilir veri yoksa miktarlar bilinmiyor gösterilir. Başka cihaz ve bulut kullanımı tahminlerin doğruluğunu etkileyebilir.
+- Yerel kullanım kaydı bulunmayan bulut/ChatGPT sohbetleri listelenmez. Auto Follow doğrulanmış Desktop seçimi bulunamazsa manuel kalır.
 
-### Gizlilik ve paylaÅŸÄ±m
+### Gizlilik ve paylaşım
 
-Uygulama konuÅŸmalarÄ± ve kullanÄ±m kayÄ±tlarÄ±nÄ± bir dashboard sunucusuna yÃ¼klemez; kimlik doÄŸrulama token dosyalarÄ±nÄ± okumaz. AÄŸ eriÅŸimi resmi fiyat kontrolÃ¼, kurulu Codex'in hesap limit okuyucusu ve GitHub gÃ¼ncelleme kontrolÃ¼/indirmesi iÃ§indir.
+Uygulama konuşmaları ve kullanım kayıtlarını bir dashboard sunucusuna yüklemez; kimlik doğrulama token dosyalarını okumaz. Ağ erişimi resmi fiyat kontrolü, kurulu Codex'in hesap limit okuyucusu ve GitHub güncelleme kontrolü/indirmesi içindir.
 
-Ayarlar â†’ **GÃ¼ncellemeleri kontrol et** ile yeni sÃ¼rÃ¼mÃ¼ sorgulayabilirsin. Yeni sÃ¼rÃ¼m bulunduÄŸunda **Ä°ndir ve kur** dÃ¼ÄŸmesine tÄ±klaman gerekir; kurulum kendiliÄŸinden baÅŸlamaz. Paket imzasÄ± ve imzalanmÄ±ÅŸ sÃ¼rÃ¼m numarasÄ± doÄŸrulanÄ±r. Windows kurulum sÄ±rasÄ±nda kapanabilir; Linux'ta uygulama yeniden baÅŸlatÄ±lÄ±r. GitHub dÃ¼ÄŸmesiyle tÃ¼m sÃ¼rÃ¼mleri tarayÄ±cÄ±da aÃ§abilirsin. Ä°nternet veya yayÄ±n manifesti eriÅŸilemezse kontrol baÅŸarÄ±sÄ±z olarak gÃ¶sterilir; uygulama gÃ¼ncelmiÅŸ gibi davranmaz.
+Ayarlar → **Güncellemeleri kontrol et** ile yeni sürümü sorgulayabilirsin. Yeni sürüm bulunduğunda **İndir ve kur** düğmesine tıklaman gerekir; kurulum kendiliğinden başlamaz. Paket imzası ve imzalanmış sürüm numarası doğrulanır. Windows kurulum sırasında kapanabilir; Linux'ta uygulama yeniden başlatılır. GitHub düğmesiyle tüm sürümleri tarayıcıda açabilirsin. İnternet veya yayın manifesti erişilemezse kontrol başarısız olarak gösterilir; uygulama güncelmiş gibi davranmaz.
 
-Uygulama Ã¼cretsiz kullanÄ±labilir; kaynak kodu, deÄŸiÅŸtirme, yeniden daÄŸÄ±tma veya satÄ±ÅŸ hakkÄ± verilmez. AyrÄ±ntÄ±lar iÃ§in [kullanÄ±m lisansÄ±nÄ±](LICENSE) incele.
+Uygulama ücretsiz kullanılabilir; kaynak kodu, değiştirme, yeniden dağıtma veya satış hakkı verilmez. Ayrıntılar için [kullanım lisansını](LICENSE) incele.
 
 ## English
 
@@ -91,7 +92,7 @@ Qufu Codex Dashboard is a compact Tauri 2 desktop monitor for local Codex usage 
 
 The application is **free to use and closed-source**. Downloads are public and do not require a GitHub account or invitation. Application source code is not distributed in the downloads repository.
 
-Open [Release 1.0 â†’ Assets](https://github.com/qufu-io/qufu-codex-dashboard-releases/releases) and select your package:
+Open [Release 1.0 → Assets](https://github.com/qufu-io/qufu-codex-dashboard-releases/releases) and select your package:
 
 | Platform | Package | Installation |
 | --- | --- | --- |
@@ -114,13 +115,13 @@ Local metadata and logs are read without modification from `CODEX_HOME`, or `~/.
 
 Unknown values remain unavailable. USD is an API-equivalent estimate, not a subscription bill. The official [OpenAI pricing table](https://developers.openai.com/api/docs/pricing) is checked on every launch, with last-good cache and bundled first-launch fallback. Context uses measured usage and session-reported capacity, never a subscription-based guess.
 
-Account percentages come from the installed Codex `account/rateLimits/read` interface. OpenAI does not report a fixed token allowance. Fractions marked `â‰ˆ` are estimated token equivalents from local price-weighted calibration, not official quotas or measured account-wide spending. Insufficient or unstable calibration remains unavailable; other devices and cloud use can affect accuracy. Cloud/ChatGPT conversations without local usage records are not listed. Auto Follow keeps manual selection when Desktop selection cannot be verified.
+Account percentages come from the installed Codex `account/rateLimits/read` interface. OpenAI does not report a fixed token allowance. Fractions marked `≈` are estimated token equivalents from local price-weighted calibration, not official quotas or measured account-wide spending. Insufficient or unstable calibration remains unavailable; other devices and cloud use can affect accuracy. Cloud/ChatGPT conversations without local usage records are not listed. Auto Follow keeps manual selection when Desktop selection cannot be verified.
 
 The app does not upload conversations or usage logs to a dashboard server and does not read authentication token files. Network activity is limited to public pricing requests, the installed Codex account reader, and GitHub update checks/downloads.
 
 ### Updates and license
 
-Open Settings â†’ **Check for updates**. When a newer release is found, click **Download and install** to approve installation. The package signature and signed version are verified first. Windows may close during installation; Linux restarts the app afterward. The GitHub button opens the releases page. A failed network or missing release manifest is reported as a failed check, never as proof that the app is current.
+Open Settings → **Check for updates**. When a newer release is found, click **Download and install** to approve installation. The package signature and signed version are verified first. Windows may close during installation; Linux restarts the app afterward. The GitHub button opens the releases page. A failed network or missing release manifest is reported as a failed check, never as proof that the app is current.
 
 Use is free. Application source, modification, redistribution and resale rights are not granted. See the [freeware license](LICENSE). Third-party components retain their own licenses.
 
@@ -130,6 +131,6 @@ Use is free. Application source, modification, redistribution and resale rights 
 
 [qufu.io](https://qufu.io)
 
-Copyright Â© 2026 alper@qufu.io. All rights reserved. The application is free to use under the [freeware license](LICENSE); its source code is not publicly distributed.
+Copyright © 2026 alper@qufu.io. All rights reserved. The application is free to use under the [freeware license](LICENSE); its source code is not publicly distributed.
 
 The in-app Qufu logo is supplied by the author. System icons use the approved Lucide Square Activity adaptation; see the [ISC license and attribution](docs/third-party/LUCIDE-LICENSE).
