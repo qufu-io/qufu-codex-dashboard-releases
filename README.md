@@ -39,11 +39,10 @@ Uygulama **ücretsizdir ve kapalı kaynaklıdır**. Public dağıtım deposundan
 | Platform | Paket | Kurulum |
 | --- | --- | --- |
 | Windows x64 | `*_x64-setup.exe` | Dosyayı çalıştır; kurulumdan sonra Başlat menüsünden aç. |
-| Windows x64, taşınabilir | `QufuCodexDashboard-1.0.exe` | Dosyayı çalıştır. WebView2 kurulu olmalı. |
 | Ubuntu / Debian amd64 | `*_amd64.deb` | `sudo apt install ./indirilen-dosya.deb` |
 | Linux x64 | `*_amd64.AppImage` | `chmod +x indirilen-dosya.AppImage` ardından dosyayı çalıştır. |
 
-**Gereksinimler:** Yerel session verisi oluşturan Codex kurulumu. Canlı hesap limitleri için oturum açılmış Codex CLI (`codex` komutu PATH üzerinde) gerekir. Windows kurulumu, eksikse Microsoft Edge WebView2'yi edinebilir. Linux'ta WebKitGTK 4.1 ve çalışan bir masaüstü oturumu gerekir; GNOME'da tray için AppIndicator eklentisi gerekebilir. Wayland, pencere konumunu ve her zaman üstte davranışını sınırlandırabilir.
+**Gereksinimler:** Yerel session verisi oluşturan Codex kurulumu. Canlı hesap limitleri için oturum açılmış Codex CLI (`codex` komutu PATH üzerinde) gerekir. Windows kurucusu WebView2'yi kontrol eder; eksikse internetten indirip otomatik kurar. WebView2 kurulumu başarısız olursa uygulama kurulumu durur. Linux'ta WebKitGTK 4.1 ve çalışan bir masaüstü oturumu gerekir; GNOME'da tray için AppIndicator eklentisi gerekebilir. Wayland, pencere konumunu ve her zaman üstte davranışını sınırlandırabilir.
 
 **Güncelleme:** Eski uygulamayı tray menüsündeki **Quit / Çıkış** ile kapat, ardından yeni kurulumu çalıştır. Pencerenin X düğmesi uygulamayı tray'e gizler.
 
@@ -97,11 +96,10 @@ Open [Release 1.0 → Assets](https://github.com/qufu-io/qufu-codex-dashboard-re
 | Platform | Package | Installation |
 | --- | --- | --- |
 | Windows x64 | `*_x64-setup.exe` | Run the installer, then open the app from the Start menu. |
-| Windows x64 portable | `QufuCodexDashboard-1.0.exe` | Run the executable; WebView2 must be installed. |
 | Ubuntu / Debian amd64 | `*_amd64.deb` | `sudo apt install ./downloaded-file.deb` |
 | Linux x64 | `*_amd64.AppImage` | `chmod +x downloaded-file.AppImage`, then run it. |
 
-Local Codex session records are required. Live account limits require a signed-in Codex CLI available as `codex` on PATH. The Windows installer can obtain Microsoft Edge WebView2 when missing. Linux requires WebKitGTK 4.1 and a graphical session; GNOME may need an AppIndicator extension for the tray. Wayland can restrict window positioning and always-on-top behavior.
+Local Codex session records are required. Live account limits require a signed-in Codex CLI available as `codex` on PATH. The Windows installer detects WebView2 and automatically downloads/installs it when missing; this requires internet access. Installation stops if the runtime cannot be installed. Linux requires WebKitGTK 4.1 and a graphical session; GNOME may need an AppIndicator extension for the tray. Wayland can restrict window positioning and always-on-top behavior.
 
 Before updating, use **Quit** in the tray menu to close the running app. Closing the window only hides it to the tray.
 
