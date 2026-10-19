@@ -10,8 +10,6 @@ A compact desktop companion for tracking Codex sessions, token usage and account
   <img src="docs/images/dashboard-1.0.png" width="300" alt="Qufu Codex Dashboard 1.0 showing session tokens, last request cost, context usage and account limits">
 </p>
 
-> **1.0 güncelleme sürümü son test aşamasında. Kurulum paketleri test onayından sonra Releases bölümüne eklenecek.**
-> **The updated 1.0 build is undergoing final testing. Installers will appear in Releases after acceptance.**
 
 ## Türkçe
 
