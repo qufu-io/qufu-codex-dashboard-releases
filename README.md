@@ -123,6 +123,13 @@ Open Settings → **Check for updates**. When a newer release is found, click **
 
 Use is free. Application source, modification, redistribution and resale rights are not granted. See the [freeware license](LICENSE). Third-party components retain their own licenses.
 
+## Community / Topluluk
+
+- [Contribution guide / Katkı rehberi](CONTRIBUTING.md)
+- [Code of Conduct / Davranış kuralları](CODE_OF_CONDUCT.md)
+- [Security policy / Güvenlik politikası](SECURITY.md)
+- [Bug reports and feature requests / Hata bildirimi ve özellik önerileri](https://github.com/qufu-io/qufu-codex-dashboard-releases/issues/new/choose)
+
 ## Contributors / Katkıda bulunanlar
 
 | Contributor / Katkıda bulunan | Role / Rol |

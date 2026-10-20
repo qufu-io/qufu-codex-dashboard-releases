@@ -1,0 +1,67 @@
+name: Bug report / Hata bildirimi
+description: Report an application or installation problem. / Uygulama veya kurulum hatası bildir.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not include credentials, private conversations or full Codex logs. For security issues, follow [SECURITY.md](https://github.com/qufu-io/qufu-codex-dashboard-releases/blob/main/SECURITY.md).
+        Kimlik bilgisi, özel konuşma veya tüm Codex loglarını paylaşma. Güvenlik açıkları için SECURITY.md dosyasını kullan.
+  - type: input
+    id: version
+    attributes:
+      label: App version / Uygulama sürümü
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system and version / İşletim sistemi ve sürümü
+      placeholder: "Windows or Linux distribution/version"
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package / Paket
+      options:
+        - Windows installer / Windows kurulumu
+        - Windows portable / Windows taşınabilir
+        - Linux Debian package / Linux .deb
+        - Linux AppImage
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce / Tekrar oluşturma adımları
+      description: Describe the steps that lead to the problem. / Hataya götüren adımları açıkla.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / Beklenen davranış
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / Gerçekleşen davranış
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or short error messages / Ekran görüntüsü veya kısa hata mesajı
+      description: Optional; remove names, paths and confidential data where needed. / İsteğe bağlı; gerekliyse isim, yol ve gizli verileri temizle.
+  - type: checkboxes
+    id: preparation
+    attributes:
+      label: Before submitting / Göndermeden önce
+      options:
+        - label: I checked existing issues and the latest release. / Mevcut issue'ları ve son sürümü kontrol ettim.
+          required: true
+        - label: I read the Code of Conduct. / Davranış kurallarını okudum.
+          required: true

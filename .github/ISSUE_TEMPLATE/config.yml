@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report / Güvenlik bildirimi
+    url: https://github.com/qufu-io/qufu-codex-dashboard-releases/security/policy
+    about: Follow the private reporting instructions. / Özel bildirim yönergelerini kullan.
+  - name: Downloads and installation / İndirme ve kurulum
+    url: https://github.com/qufu-io/qufu-codex-dashboard-releases#readme
+    about: Read installation instructions and requirements. / Kurulum yönergelerini ve gereksinimleri oku.

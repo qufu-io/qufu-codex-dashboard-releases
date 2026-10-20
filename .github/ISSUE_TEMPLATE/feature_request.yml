@@ -1,0 +1,31 @@
+name: Feature request / Özellik önerisi
+description: Suggest an improvement. / Bir iyileştirme öner.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need / Sorun veya ihtiyaç
+      description: What are you trying to achieve? / Neyi yapmak istiyorsun?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior / Önerilen davranış
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and context / Alternatifler ve bağlam
+      description: Optional; include privacy-safe examples if useful. / İsteğe bağlı; yararlıysa gizli veri içermeyen örnek ekle.
+  - type: checkboxes
+    id: preparation
+    attributes:
+      label: Before submitting / Göndermeden önce
+      options:
+        - label: I checked existing suggestions and the README. / Mevcut önerileri ve README'yi kontrol ettim.
+          required: true
+        - label: I read the Code of Conduct. / Davranış kurallarını okudum.
+          required: true
