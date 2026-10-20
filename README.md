@@ -130,6 +130,8 @@ Use is free. Application source, modification, redistribution and resale rights 
 | [qufu-io](https://github.com/qufu-io) — [alper@qufu.io](mailto:alper@qufu.io) | Project owner and developer / Proje sahibi ve geliştirici |
 | [OpenAI Codex](https://github.com/codex) | AI development assistant / Yapay zekâ geliştirme asistanı |
 
+Development commits credit [qufu-io](https://github.com/qufu-io) as author and [Codex](https://github.com/codex) as AI co-author. / Geliştirme commitlerinde qufu-io yazar, Codex ise yapay zekâ ortak yazar olarak belirtilir.
+
 ## Author / Yazar
 
 **[alper@qufu.io](mailto:alper@qufu.io)**
