@@ -123,6 +123,13 @@ Open Settings → **Check for updates**. When a newer release is found, click **
 
 Use is free. Application source, modification, redistribution and resale rights are not granted. See the [freeware license](LICENSE). Third-party components retain their own licenses.
 
+## Contributors / Katkıda bulunanlar
+
+| Contributor / Katkıda bulunan | Role / Rol |
+| --- | --- |
+| [qufu-io](https://github.com/qufu-io) — [alper@qufu.io](mailto:alper@qufu.io) | Project owner and developer / Proje sahibi ve geliştirici |
+| [OpenAI Codex](https://openai.com/codex/) | AI development assistant / Yapay zekâ geliştirme asistanı |
+
 ## Author / Yazar
 
 **[alper@qufu.io](mailto:alper@qufu.io)**
