@@ -1,39 +1,15 @@
 # Contributing / Katkı Rehberi
 
-## English
+Qufu Codex Dashboard is free and open source under the [MIT license](LICENSE), maintained by **alper@qufu.io**. This repository hosts official downloads and release documentation.
 
-Thank you for helping improve Qufu Codex Dashboard. This is the public **downloads and documentation** repository for a free-to-use, **closed-source** application. Application source code is maintained privately; the [freeware license](LICENSE) remains unchanged.
+For code contributions, development setup, tests and application issues, use the [source repository](https://github.com/qufu-io/qufu-codex-dashboard) and its [contribution guide](https://github.com/qufu-io/qufu-codex-dashboard/blob/main/CONTRIBUTING.md). Corrections to this repository's download instructions and translations are welcome here. Explain changes and check links/formatting. Contributions are under MIT; preserve third-party notices.
 
-### Report a bug or suggest a feature
-
-1. Check the [latest release](https://github.com/qufu-io/qufu-codex-dashboard-releases/releases/latest), the [README](README.md), and existing issues.
-2. Open an issue using the bug report or feature request form. English and Turkish are both welcome.
-3. For bugs, include the app version, operating system, installation type, reproduction steps, expected behavior and actual behavior. A redacted screenshot or a short relevant error message can help.
-4. For a feature, describe the problem, the proposed behavior and the benefit. A suggestion is not a release commitment.
-
-Do not attach Codex authentication files, tokens, complete session logs, private conversation text or unrelated personal data. For security vulnerabilities, use [SECURITY.md](SECURITY.md) instead of a public issue.
-
-### Documentation pull requests
-
-Focused corrections, clearer installation instructions and localization improvements are welcome. Explain what changed and check links, Markdown formatting and the affected language. Use the PR template and follow the [Code of Conduct](CODE_OF_CONDUCT.md). Changes to application behavior can be proposed as issues; do not upload private application source or replacement executables here.
-
-Maintainer: **alper@qufu.io** · [qufu.io](https://qufu.io)
+Follow the [Code of Conduct](CODE_OF_CONDUCT.md). Never include auth files, credentials, signing keys, local Codex logs or private conversations. Report vulnerabilities privately using [SECURITY.md](SECURITY.md). See the [licensing transition](docs/LICENSING.md) for legacy 1.0 installer wording.
 
 ## Türkçe
 
-Qufu Codex Dashboard'u geliştirmeye yardımcı olduğun için teşekkürler. Bu depo, ücretsiz kullanılan **kapalı kaynaklı** uygulamanın public **indirme ve dokümantasyon** deposudur. Uygulamanın kaynak kodu private tutulur; [kullanım lisansı](LICENSE) değişmez.
+Qufu Codex Dashboard **alper@qufu.io** tarafından yürütülen, [MIT lisanslı](LICENSE) ücretsiz açık kaynaklı projedir. Bu depo resmi indirmeleri ve sürüm dokümantasyonunu barındırır.
 
-### Hata bildirimi veya özellik önerisi
+Kod katkıları, geliştirme kurulumu, testler ve uygulama sorunları için [kaynak depoyu](https://github.com/qufu-io/qufu-codex-dashboard) ve [katkı rehberini](https://github.com/qufu-io/qufu-codex-dashboard/blob/main/CONTRIBUTING.md) kullan. Bu depodaki indirme yönergeleri ve çeviri düzeltmelerini burada önerebilirsin. Değişikliği açıkla, bağlantıları/biçimlendirmeyi kontrol et. Katkılar MIT kapsamındadır; üçüncü taraf bildirimlerini koru.
 
-1. [Son sürümü](https://github.com/qufu-io/qufu-codex-dashboard-releases/releases/latest), [README'yi](README.md) ve mevcut issue'ları kontrol et.
-2. Hata veya özellik önerisi formuyla issue aç. Türkçe ve İngilizce bildirimler kabul edilir.
-3. Hata için uygulama sürümünü, işletim sistemini, kurulum türünü, tekrar oluşturma adımlarını, beklenen ve gerçekleşen davranışı belirt. Gizli bilgileri temizlenmiş ekran görüntüsü veya kısa hata mesajı yardımcı olabilir.
-4. Özellik önerisinde çözmek istediğin sorunu, önerilen davranışı ve faydasını açıkla. Önerinin alınması yayın taahhüdü anlamına gelmez.
-
-Codex kimlik doğrulama dosyalarını, tokenları, tüm session loglarını, özel konuşmaları veya ilgisiz kişisel verileri ekleme. Güvenlik açıklarını public issue yerine [SECURITY.md](SECURITY.md) üzerinden bildir.
-
-### Dokümantasyon pull request'leri
-
-Odaklı düzeltmeler, daha anlaşılır kurulum açıklamaları ve çeviri iyileştirmeleri kabul edilir. Değişikliği açıkla; bağlantıları, Markdown görünümünü ve etkilenen dili kontrol et. PR şablonunu kullan ve [Davranış Kuralları'na](CODE_OF_CONDUCT.md) uy. Uygulama davranışı için issue üzerinden öneri sunabilirsin; private uygulama kodunu veya alternatif çalıştırılabilir dosyaları bu depoya yükleme.
-
-Proje sahibi: **alper@qufu.io** · [qufu.io](https://qufu.io)
+[Davranış Kuralları'na](CODE_OF_CONDUCT.md) uy. Kimlik doğrulama dosyası, parola, imzalama anahtarı, yerel Codex logu veya özel konuşma ekleme. Güvenlik açıklarını [SECURITY.md](SECURITY.md) üzerinden özel olarak bildir. Eski 1.0 kurulum metni için [lisans geçişini](docs/LICENSING.md) oku.
